@@ -1,0 +1,6 @@
+{
+  "type": "polytrope",
+  "K_SI": 0.01,
+  "gamma": 2.0,
+  "description": "Synthetic cold polytrope experiment; no nuclear or observational calibration. K units: Pa/(kg m^-3)^2."
+}

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neutron-star-simulator"
+version = "1.0.0"
+description = "Cold spherical TOV equilibria with explicit EOS assumptions and quantified validation"
+requires-python = ">=3.10"
+dependencies = ["numpy>=2.1,<3", "scipy>=1.14,<2", "matplotlib>=3.9,<4"]
+
+[project.optional-dependencies]
+ui = ["streamlit>=1.40,<2"]
+
+[project.scripts]
+neutron-star-simulator = "neutron_star_simulator.main:main"
+
+[tool.setuptools]
+packages = ["neutron_star_simulator"]
+package-dir = {neutron_star_simulator = "."}
+
+[tool.setuptools.package-data]
+neutron_star_simulator = ["docs/*.md", "data/*.json", "data/*.csv", "data/*.md", "README.md", "requirements*.txt"]

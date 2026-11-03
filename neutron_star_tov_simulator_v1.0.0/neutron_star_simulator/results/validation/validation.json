@@ -1,0 +1,424 @@
+{
+  "passed": true,
+  "checks": {
+    "dimensions": {
+      "passed": true,
+      "basis": [
+        "kg",
+        "m",
+        "s"
+      ],
+      "dm_dr": [
+        1,
+        -1,
+        0
+      ],
+      "dP_dr": [
+        1,
+        -2,
+        -2
+      ],
+      "4pi_r3_P_c2": [
+        1,
+        0,
+        0
+      ]
+    },
+    "incompressible": {
+      "passed": true,
+      "relative_acceptance": 1e-08,
+      "reference": "Schwarzschild interior constant-energy-density solution, 1916",
+      "source": "https://arxiv.org/abs/physics/9912033",
+      "status": "exact mathematical benchmark; acausal, not nuclear matter",
+      "expected_mass_kg": 3.902695833799481e+30,
+      "expected_radius_m": 11000.0,
+      "mass_relative_error": 3.019806626980426e-14,
+      "radius_relative_error": 1.0103029524088925e-14,
+      "pressure_profile_max_error_over_Pc": 1.8967457128589607e-14
+    },
+    "newtonian_n1": {
+      "passed": true,
+      "reference": "Analytic Newtonian Lane-Emden n=1 limit",
+      "acceptance": "deviations <20 sigma; GR corrections should vanish as sigma→0",
+      "expected_newtonian_radius_m": 15341.120340438185,
+      "models": [
+        {
+          "sigma_Pc_rho0c_c2": 0.0001,
+          "mass_relative_error": 0.0008387744337060576,
+          "radius_relative_error": 0.0002778471662091553,
+          "density_profile_error_over_rhoc": 0.0003145074301499906
+        },
+        {
+          "sigma_Pc_rho0c_c2": 1e-05,
+          "mass_relative_error": 8.392773962295763e-05,
+          "radius_relative_error": 2.7794842916151197e-05,
+          "density_profile_error_over_rhoc": 3.1458428849134856e-05
+        },
+        {
+          "sigma_Pc_rho0c_c2": 1e-06,
+          "mass_relative_error": 8.387536962195519e-06,
+          "radius_relative_error": 2.779593930690716e-06,
+          "density_profile_error_over_rhoc": 3.1459197518957094e-06
+        }
+      ],
+      "status": "asymptotic check, finite-sigma TOV is not exactly Newtonian"
+    },
+    "published_fermi": {
+      "passed": true,
+      "relative_acceptance": 0.04,
+      "reference": {
+        "title": "On Massive Neutron Cores",
+        "authors": "J. R. Oppenheimer and G. M. Volkoff",
+        "year": 1939,
+        "journal": "Physical Review 55, 374–381",
+        "doi": "10.1103/PhysRev.55.374",
+        "url": "https://doi.org/10.1103/PhysRev.55.374",
+        "table": "Table I, finite t0 entries",
+        "parameter_mapping": "x_c=sinh(t0/4), rho0_c=m_n^4 c^3 x_c^3/(3 pi^2 hbar^3)",
+        "reported_precision": "historical rounded values, not high-precision reference data"
+      },
+      "models": [
+        {
+          "t0": 1,
+          "central_rho0_kg_m3": 9.843742497901746e+16,
+          "published_mass_solar": 0.3,
+          "computed_mass_solar": 0.30074694127746754,
+          "published_radius_km": 21.1,
+          "computed_radius_km": 20.7461509029827,
+          "mass_relative_difference": 0.0024898042582250923,
+          "radius_relative_difference": 0.016770099384706305
+        },
+        {
+          "t0": 2,
+          "central_rho0_kg_m3": 8.640684752645576e+17,
+          "published_mass_solar": 0.6,
+          "computed_mass_solar": 0.6104900086281588,
+          "published_radius_km": 13.3,
+          "computed_radius_km": 13.120672192858375,
+          "mass_relative_difference": 0.017483347713598052,
+          "radius_relative_difference": 0.013483293770046978
+        },
+        {
+          "t0": 3,
+          "central_rho0_kg_m3": 3.395580726503919e+18,
+          "published_mass_solar": 0.71,
+          "computed_mass_solar": 0.7100860068750333,
+          "published_radius_km": 9.5,
+          "computed_radius_km": 9.264568673462742,
+          "mass_relative_difference": 0.00012113644370903565,
+          "radius_relative_difference": 0.024782244898658767
+        },
+        {
+          "t0": 4,
+          "central_rho0_kg_m3": 9.911362269429445e+18,
+          "published_mass_solar": 0.64,
+          "computed_mass_solar": 0.6584414738474375,
+          "published_radius_km": 6.8,
+          "computed_radius_km": 6.965746722710393,
+          "mass_relative_difference": 0.028814802886621083,
+          "radius_relative_difference": 0.024374518045646054
+        }
+      ],
+      "interpretation": "Percent-level reproduction of a rounded historical table using modern constants; not a 4% integrator error or observational validation."
+    },
+    "convergence": {
+      "passed": true,
+      "central_rho0_kg_m3": 1e+18,
+      "reference": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "fermi",
+          "name": "Free degenerate neutron gas",
+          "neutron_mass_kg": 1.67492750056e-27,
+          "degeneracy": 2,
+          "temperature_K": 0,
+          "status": "noninteracting reference, not realistic neutron-star matter"
+        },
+        "radius_m": 12670.079894267727,
+        "radius_km": 12.670079894267726,
+        "gravitational_mass_kg": 1.249946254755772e+30,
+        "gravitational_mass_solar": 0.6286159977253413,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 1.285993774568753e+30,
+        "binding_energy_j": 3.23978951125348e+45,
+        "compactness_GM_Rc2": 0.0732615839289265,
+        "schwarzschild_ratio_2GM_Rc2": 0.146523167857853,
+        "surface_redshift": 0.0824407454953886,
+        "central_rest_density_kg_m3": 9.999999999999999e+17,
+        "central_energy_density_j_m3": 9.75582796596497e+34,
+        "central_mass_energy_density_kg_m3": 1.0854822533180383e+18,
+        "central_pressure_pa": 4.888767643250171e+33,
+        "central_enthalpy": 0.1309204752300248,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-12,
+          "atol_mass": 1e-15,
+          "atol_enthalpy": 1e-15,
+          "atol_baryonic_mass": 1e-15,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 20,
+          "length_scale_m": 10000.0,
+          "profile_points": 1401,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 2.768950704574308e-18,
+          "function_evaluations": 9602,
+          "accepted_steps": 636,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.12830239200002325,
+          "max_sound_speed_squared_over_c2_evaluated": 0.07678885872817812,
+          "central_series_relative_h_correction": 3.7085313948721583e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "tolerance_study": {
+        "models": [
+          {
+            "rtol": 1e-05,
+            "dimensionless_atol": 1e-08,
+            "function_evaluations": 392,
+            "mass_solar": 0.6286158937335173,
+            "radius_km": 12.670081350926695,
+            "mass_relative_error": 1.6542980818545772e-07,
+            "radius_relative_error": 1.1496841234581723e-07
+          },
+          {
+            "rtol": 1e-07,
+            "dimensionless_atol": 1e-10,
+            "function_evaluations": 491,
+            "mass_solar": 0.6286160416789361,
+            "radius_km": 12.670079897048561,
+            "mass_relative_error": 6.992121592830358e-08,
+            "radius_relative_error": 2.1948043382735705e-10
+          },
+          {
+            "rtol": 1e-09,
+            "dimensionless_atol": 1.0000000000000002e-12,
+            "function_evaluations": 557,
+            "mass_solar": 0.6286159980651564,
+            "radius_km": 12.670079894462138,
+            "mass_relative_error": 5.405766945187906e-10,
+            "radius_relative_error": 1.5344170378739364e-11
+          },
+          {
+            "rtol": 1e-11,
+            "dimensionless_atol": 1e-14,
+            "function_evaluations": 671,
+            "mass_solar": 0.6286159977259645,
+            "radius_km": 12.670079894295746,
+            "mass_relative_error": 9.916512055951898e-13,
+            "radius_relative_error": 2.211564265053312e-12
+          }
+        ],
+        "tight_relative_acceptance": 1e-07,
+        "loose_relative_acceptance": 0.0002
+      },
+      "center_study": [
+        {
+          "initial_radius_m": 32.0,
+          "mass_solar": 0.6286159976137055,
+          "radius_km": 12.67007989699978,
+          "mass_relative_error": 1.7758972070680556e-10,
+          "radius_relative_error": 2.1563040242256193e-10
+        },
+        {
+          "initial_radius_m": 8.0,
+          "mass_solar": 0.6286159977267479,
+          "radius_km": 12.670079894278569,
+          "mass_relative_error": 2.2377655284344655e-12,
+          "radius_relative_error": 8.557599073810707e-13
+        },
+        {
+          "initial_radius_m": 2.0,
+          "mass_solar": 0.6286159977251619,
+          "radius_km": 12.670079894267777,
+          "mass_relative_error": 2.8532731732866523e-13,
+          "radius_relative_error": 3.9968028886505635e-15
+        },
+        {
+          "initial_radius_m": 0.5,
+          "mass_solar": 0.6286159977253413,
+          "radius_km": 12.670079894267726,
+          "mass_relative_error": 0.0,
+          "radius_relative_error": 0.0
+        },
+        {
+          "initial_radius_m": 0.125,
+          "mass_solar": 0.6286159977252164,
+          "radius_km": 12.670079894267742,
+          "mass_relative_error": 1.986188991054405e-13,
+          "radius_relative_error": 1.1102230246251565e-15
+        }
+      ],
+      "unit_scale_study": [
+        {
+          "length_scale_m": 1000.0,
+          "mass_solar": 0.628615997725288,
+          "radius_km": 12.670079894267722,
+          "mass_relative_error": 8.482103908136196e-14,
+          "radius_relative_error": 3.3306690738754696e-16
+        },
+        {
+          "length_scale_m": 10000.0,
+          "mass_solar": 0.6286159977253413,
+          "radius_km": 12.670079894267726,
+          "mass_relative_error": 0.0,
+          "radius_relative_error": 0.0
+        },
+        {
+          "length_scale_m": 100000.0,
+          "mass_solar": 0.6286159977243604,
+          "radius_km": 12.670079894267747,
+          "mass_relative_error": 1.560307438808195e-12,
+          "radius_relative_error": 1.5543122344752192e-15
+        }
+      ],
+      "max_step_study": [
+        {
+          "max_step_m": 1000.0,
+          "mass_solar": 0.6286159977256732,
+          "radius_km": 12.670079894275077,
+          "mass_relative_error": 5.282441151166495e-13,
+          "radius_relative_error": 5.802025526691068e-13
+        },
+        {
+          "max_step_m": 300.0,
+          "mass_solar": 0.6286159977190026,
+          "radius_km": 12.670079894279178,
+          "mass_relative_error": 1.008337857655306e-11,
+          "radius_relative_error": 9.039435866498025e-13
+        },
+        {
+          "max_step_m": 100.0,
+          "mass_solar": 0.6286159977248995,
+          "radius_km": 12.670079894267786,
+          "mass_relative_error": 7.025491299827991e-13,
+          "radius_relative_error": 4.6629367034256575e-15
+        },
+        {
+          "max_step_m": 30.0,
+          "mass_solar": 0.6286159977236698,
+          "radius_km": 12.670079894267854,
+          "mass_relative_error": 2.658762099372325e-12,
+          "radius_relative_error": 9.992007221626409e-15
+        }
+      ],
+      "other_studies_relative_acceptance": 1e-06,
+      "warning": "Differences to a refined numerical solution are not rigorous error bounds; strict monotonic decrease is not required near rounding/interpolation limits."
+    },
+    "table_interpolation": {
+      "passed": true,
+      "reference": "Analytic Gamma=2 cold polytrope, synthetic table only",
+      "source_grid_refinement": [
+        {
+          "source_rows": 41,
+          "mass_solar": 1.1010379186926167,
+          "radius_km": 12.060836095533643,
+          "mass_relative_error": 1.4879257322464312e-05,
+          "radius_relative_error": 1.5553602635609565e-05,
+          "cold_first_law_max_relative_error": 0.002356729464956908,
+          "enthalpy_identity_max_relative_error": 1.1985346961562726e-06,
+          "enthalpy_grid_points": 8193,
+          "warning": "These are interpolation diagnostics, not physical uncertainties."
+        },
+        {
+          "source_rows": 81,
+          "mass_solar": 1.1010253709915483,
+          "radius_km": 12.06066106258277,
+          "mass_relative_error": 3.4828398549624495e-06,
+          "radius_relative_error": 1.040871355773021e-06,
+          "cold_first_law_max_relative_error": 0.0005557891730310072,
+          "enthalpy_identity_max_relative_error": 1.1985346932696928e-06,
+          "enthalpy_grid_points": 8193,
+          "warning": "These are interpolation diagnostics, not physical uncertainties."
+        },
+        {
+          "source_rows": 161,
+          "mass_solar": 1.101021719782965,
+          "radius_km": 12.060649391624944,
+          "mass_relative_error": 1.6663897905999647e-07,
+          "radius_relative_error": 7.318227845942715e-08,
+          "cold_first_law_max_relative_error": 0.00016564808286578803,
+          "enthalpy_identity_max_relative_error": 1.1985347383447476e-06,
+          "enthalpy_grid_points": 8193,
+          "warning": "These are interpolation diagnostics, not physical uncertainties."
+        },
+        {
+          "source_rows": 321,
+          "mass_solar": 1.1010215424464511,
+          "radius_km": 12.060648573293026,
+          "mass_relative_error": 5.5735429604908404e-09,
+          "radius_relative_error": 5.330875962883397e-09,
+          "cold_first_law_max_relative_error": 3.083249303226232e-05,
+          "enthalpy_identity_max_relative_error": 1.1985347312393202e-06,
+          "enthalpy_grid_points": 8193,
+          "warning": "These are interpolation diagnostics, not physical uncertainties."
+        }
+      ],
+      "enthalpy_grid_refinement": [
+        {
+          "requested_enthalpy_nodes": 1025,
+          "mass_solar": 1.1010215144052704,
+          "radius_km": 12.060648708986863,
+          "mass_relative_error": 1.9894788039209743e-08,
+          "radius_relative_error": 1.6581832795736773e-08,
+          "cold_first_law_max_relative_error": 3.083249303226232e-05,
+          "enthalpy_identity_max_relative_error": 7.611720603484251e-05,
+          "enthalpy_grid_points": 1025,
+          "warning": "These are interpolation diagnostics, not physical uncertainties."
+        },
+        {
+          "requested_enthalpy_nodes": 4097,
+          "mass_solar": 1.101021542767432,
+          "radius_km": 12.060648570997577,
+          "mass_relative_error": 5.8650726497688765e-09,
+          "radius_relative_error": 5.140550429771906e-09,
+          "cold_first_law_max_relative_error": 3.083249303226232e-05,
+          "enthalpy_identity_max_relative_error": 4.788788632081875e-06,
+          "enthalpy_grid_points": 4097,
+          "warning": "These are interpolation diagnostics, not physical uncertainties."
+        },
+        {
+          "requested_enthalpy_nodes": 16385,
+          "mass_solar": 1.1010215423916698,
+          "radius_km": 12.06064857402157,
+          "mass_relative_error": 5.523787871553054e-09,
+          "radius_relative_error": 5.391282531519437e-09,
+          "cold_first_law_max_relative_error": 3.083249303226232e-05,
+          "enthalpy_identity_max_relative_error": 2.998016512822943e-07,
+          "enthalpy_grid_points": 16385,
+          "warning": "These are interpolation diagnostics, not physical uncertainties."
+        }
+      ],
+      "fine_source_MR_relative_acceptance": 2e-05,
+      "warning": "This tests the importer, not any external nuclear EOS or a physical crust."
+    },
+    "profile_consistency": {
+      "passed": true,
+      "mass_integral_relative_error": 8.512616611611179e-09,
+      "baryonic_integral_relative_error": 8.955392649667715e-09,
+      "dm_dr_max_relative_residual": 3.5054769810491e-08,
+      "dP_dr_max_relative_residual": 1.0548902765390902e-08,
+      "differential_domain": "0.02R<r<0.95R",
+      "mass_integral_acceptance": 2e-05,
+      "differential_relative_acceptance": 0.0001,
+      "warning": "Finite-difference residuals depend on profile sampling, separate from integration tolerance."
+    }
+  },
+  "scope": "Validated mathematical benchmark models and numerical consistency in the tested regimes.",
+  "not_validated": [
+    "Realistic nuclear matter, composition and observational inference",
+    "Radial-mode eigenvalues and nonlinear time evolution",
+    "Rotation, tides, magnetic fields, finite temperature",
+    "Imported scientific EOS tables (none redistributed), density-jump interfaces"
+  ],
+  "observational_data_included": false
+}

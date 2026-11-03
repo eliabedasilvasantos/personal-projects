@@ -1,0 +1,4634 @@
+{
+  "eos": {
+    "type": "piecewise",
+    "name": "Continuous piecewise polytrope",
+    "K0_SI": 63095.73444801938,
+    "gammas": [
+      1.6,
+      2.2,
+      1.8
+    ],
+    "breaks_kg_m3": [
+      1e+17,
+      8e+17
+    ],
+    "energy_offsets": [
+      0.0,
+      0.009272083800446857,
+      -0.046943320289193145
+    ],
+    "status": "uncalibrated, continuous, no density jumps"
+  },
+  "stability": {
+    "labels": [
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "positive_slope_unclassified",
+      "turning_region_unresolved",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable",
+      "negative_slope_candidate_unstable"
+    ],
+    "dM_depsilon_c_kg_m3_per_j": [
+      9.628258361236697e-05,
+      8.865763673280868e-05,
+      8.152785233844557e-05,
+      7.493213522626436e-05,
+      6.883101051749638e-05,
+      6.318797713052477e-05,
+      5.796925649769894e-05,
+      5.3143600359935345e-05,
+      4.8682110336396526e-05,
+      4.455803725179278e-05,
+      4.074666021607572e-05,
+      3.722511014970476e-05,
+      3.3972221577201946e-05,
+      3.0968442091177e-05,
+      2.8195682865398742e-05,
+      2.5637214996864864e-05,
+      2.3277563587436303e-05,
+      2.1647118892855082e-05,
+      2.569635983300399e-05,
+      3.2396619323329253e-05,
+      3.702716200537106e-05,
+      4.0608269304331325e-05,
+      4.296024482788863e-05,
+      4.4157935342254296e-05,
+      4.4341193654477824e-05,
+      4.36475879242643e-05,
+      4.219490940060049e-05,
+      4.008431471413515e-05,
+      3.740986078717823e-05,
+      3.426782419329728e-05,
+      3.0763469722812983e-05,
+      2.7013759394546558e-05,
+      2.3146295035642423e-05,
+      1.929427660693742e-05,
+      1.4006723745830676e-05,
+      9.121681275823093e-06,
+      6.153050152633272e-06,
+      3.9158741917730575e-06,
+      2.270598413239076e-06,
+      1.09364255554792e-06,
+      2.7966795800973174e-07,
+      -2.5785971568611837e-07,
+      -5.889304786533724e-07,
+      -7.693684532748433e-07,
+      -8.431558154532886e-07,
+      -8.444227980822775e-07,
+      -7.991009047388838e-07,
+      -7.264529826198603e-07,
+      -6.403696381676483e-07,
+      -5.50502718421613e-07,
+      -4.632241020576833e-07,
+      -3.8243571047084447e-07,
+      -3.1024093120665443e-07,
+      -2.474756444877406e-07,
+      -1.941263978051475e-07,
+      -1.4964838043293735e-07,
+      -1.131997563627281e-07,
+      -8.38054442994147e-08,
+      -6.0468236262463e-08,
+      -4.2410722351154554e-08
+    ],
+    "dM_dlogepsilon_over_maxM": [
+      0.027359262942554478,
+      0.02866713282417337,
+      0.029998427829665813,
+      0.0313760990765801,
+      0.03279958911226057,
+      0.034267971372302065,
+      0.0357798829472258,
+      0.03733346913283361,
+      0.0389263250304817,
+      0.04055540612243966,
+      0.04221698504388297,
+      0.04390655443127584,
+      0.04561872843148388,
+      0.04734720148849178,
+      0.04908462858715222,
+      0.05082254365821219,
+      0.0525512641292256,
+      0.05566038277181845,
+      0.07525961522943879,
+      0.10809687691256423,
+      0.14078883340723936,
+      0.17600539895767944,
+      0.21232071722750478,
+      0.24895632778990254,
+      0.2853075606890417,
+      0.32069534769265734,
+      0.3542347563497685,
+      0.3847858715696509,
+      0.41096793235708234,
+      0.4312259363702384,
+      0.44394863017531755,
+      0.4476263054005979,
+      0.44104191815356736,
+      0.4234668724858374,
+      0.35476840890385236,
+      0.26708868296911414,
+      0.2085812297560055,
+      0.15391959168071112,
+      0.10365906650393446,
+      0.05809130952553842,
+      0.01731649224787215,
+      -0.018648329414394642,
+      -0.04984958309644689,
+      -0.07638660245787454,
+      -0.09841478393903674,
+      -0.11614584632609355,
+      -0.12983498789068132,
+      -0.13977471485571652,
+      -0.14628241851074653,
+      -0.14968903079043275,
+      -0.150325783388606,
+      -0.14851259927537722,
+      -0.1445503499205463,
+      -0.13871269439952322,
+      -0.13124125079180363,
+      -0.12234385587694169,
+      -0.11219691700913914,
+      -0.10095024366381562,
+      -0.08873716357468116,
+      -0.07599857136153056
+    ],
+    "sampled_extrema": [
+      {
+        "index": 40,
+        "type": "maximum",
+        "central_rest_density_kg_m3": 1.729762340900711e+18,
+        "mass_solar": 1.5980748652345178,
+        "bracket_indices": [
+          39,
+          41
+        ]
+      }
+    ],
+    "largest_sample_index": 40,
+    "largest_sample_is_bracketed_peak": true,
+    "assume_low_density_stable": false,
+    "slope_tolerance": 0.001,
+    "complete_sequence": true,
+    "limitations": [
+      "No radial pulsation eigenvalues were computed.",
+      "An initial stable branch is an assumption, not an output of the derivative test.",
+      "A rising branch after extrema needs mode counting; positive slope alone is insufficient.",
+      "A finite interval/grid does not establish a global maximum or resolve all extrema.",
+      "No derivative is computed across a failed model."
+    ]
+  },
+  "maximum": {
+    "status": "refined_local_maximum",
+    "sample_index": 40,
+    "density_bracket_kg_m3": [
+      1.5206762977336366e+18,
+      1.9675967597164472e+18
+    ],
+    "log_density_optimizer_tolerance": 1e-05,
+    "optimizer_evaluations": 12,
+    "model": {
+      "software_version": "1.0.0",
+      "eos": {
+        "type": "piecewise",
+        "name": "Continuous piecewise polytrope",
+        "K0_SI": 63095.73444801938,
+        "gammas": [
+          1.6,
+          2.2,
+          1.8
+        ],
+        "breaks_kg_m3": [
+          1e+17,
+          8e+17
+        ],
+        "energy_offsets": [
+          0.0,
+          0.009272083800446857,
+          -0.046943320289193145
+        ],
+        "status": "uncalibrated, continuous, no density jumps"
+      },
+      "radius_m": 11522.578666789661,
+      "radius_km": 11.522578666789661,
+      "gravitational_mass_kg": 3.1793889640643245e+30,
+      "gravitational_mass_solar": 1.598960561862514,
+      "total_mass_definition": "total mass is the gravitational mass m(R)",
+      "baryonic_mass_kg": 3.496557865077816e+30,
+      "binding_energy_j": 2.850571923201408e+46,
+      "compactness_GM_Rc2": 0.20490770935727595,
+      "schwarzschild_ratio_2GM_Rc2": 0.4098154187145519,
+      "surface_redshift": 0.3016855098118445,
+      "central_rest_density_kg_m3": 1.8313247437025446e+18,
+      "central_energy_density_j_m3": 2.1070710674431153e+35,
+      "central_mass_energy_density_kg_m3": 2.34443274129954e+18,
+      "central_pressure_pa": 4.3073845785365515e+34,
+      "central_enthalpy": 0.43300631652584093,
+      "configuration": {
+        "method": "DOP853",
+        "rtol": 1e-08,
+        "atol_mass": 1e-11,
+        "atol_enthalpy": 1e-11,
+        "atol_baryonic_mass": 1e-11,
+        "initial_radius_m": 0.5,
+        "max_radius_m": 100000.0,
+        "max_step_m": 150.0,
+        "length_scale_m": 10000.0,
+        "profile_points": 701,
+        "enforce_causality": true,
+        "horizon_margin": 1e-06
+      },
+      "diagnostics": {
+        "success": true,
+        "termination": "zero_enthalpy_surface",
+        "surface_enthalpy_residual": 3.165870343657673e-17,
+        "function_evaluations": 1349,
+        "accepted_steps": 81,
+        "message": "A termination event occurred.",
+        "wall_seconds": 0.028760878999946726,
+        "max_sound_speed_squared_over_c2_evaluated": 0.3055111963321647,
+        "central_series_relative_h_correction": 3.3963705348103915e-09,
+        "baryonic_mass_available": true,
+        "causality_enforced": true,
+        "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+      },
+      "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+    },
+    "interpretation": "Local peak inside the supplied interval; no dynamic stability proof."
+  },
+  "points": [
+    {
+      "requested_rest_density_kg_m3": 1e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 34239.60513624254,
+        "radius_km": 34.239605136242545,
+        "gravitational_mass_kg": 2.271758213472075e+29,
+        "gravitational_mass_solar": 0.11424999679138344,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.2762199293706026e+29,
+        "binding_energy_j": 4.0099902698542203e+43,
+        "compactness_GM_Rc2": 0.004927171478409663,
+        "schwarzschild_ratio_2GM_Rc2": 0.009854342956819325,
+        "surface_redshift": 0.004963888650749038,
+        "central_rest_density_kg_m3": 1.0000000000000022e+16,
+        "central_energy_density_j_m3": 9.029416561226689e+32,
+        "central_mass_energy_density_kg_m3": 1.0046580842980346e+16,
+        "central_pressure_pa": 2.511886431509599e+30,
+        "central_enthalpy": 0.0074252989851026395,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 3.7777669447541795e-19,
+          "function_evaluations": 3437,
+          "accepted_steps": 229,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.06841798000004928,
+          "max_sound_speed_squared_over_c2_evaluated": 0.004438679735106208,
+          "central_series_relative_h_correction": 5.304894098717065e-10,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.1374954311306678e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 33347.72137581762,
+        "radius_km": 33.34772137581762,
+        "gravitational_mass_kg": 2.386767498302416e+29,
+        "gravitational_mass_solar": 0.12003397958714204,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.3918226492927753e+29,
+        "binding_energy_j": 4.54334313188194e+43,
+        "compactness_GM_Rc2": 0.005315061190468695,
+        "schwarzschild_ratio_2GM_Rc2": 0.01063012238093739,
+        "surface_redshift": 0.005357814903423019,
+        "central_rest_density_kg_m3": 1.1374954311306698e+16,
+        "central_energy_density_j_m3": 1.0274747060892507e+33,
+        "central_mass_energy_density_kg_m3": 1.14321978932388e+16,
+        "central_pressure_pa": 3.08687794265525e+30,
+        "central_enthalpy": 0.008019633436623092,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 2.752857078576476e-19,
+          "function_evaluations": 3359,
+          "accepted_steps": 223,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.06412882099994022,
+          "max_sound_speed_squared_over_c2_evaluated": 0.004792537180481093,
+          "central_series_relative_h_correction": 5.592872504606275e-10,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.2938958558431334e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 32477.46926077082,
+        "radius_km": 32.47746926077082,
+        "gravitational_mass_kg": 2.507174661761483e+29,
+        "gravitational_mass_solar": 0.1260894294837369,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.512900377689441e+29,
+        "binding_energy_j": 5.14601684222819e+43,
+        "compactness_GM_Rc2": 0.00573279916345066,
+        "schwarzschild_ratio_2GM_Rc2": 0.01146559832690132,
+        "surface_redshift": 0.005782572438487232,
+        "central_rest_density_kg_m3": 1.293895855843136e+16,
+        "central_energy_density_j_m3": 1.1692180841029568e+33,
+        "central_mass_energy_density_kg_m3": 1.3009305668160592e+16,
+        "central_pressure_pa": 3.793489750698938e+30,
+        "central_enthalpy": 0.008661333821092191,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -6.06475590234079e-19,
+          "function_evaluations": 3257,
+          "accepted_steps": 217,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.055000930999995035,
+          "max_sound_speed_squared_over_c2_evaluated": 0.005174359517338863,
+          "central_series_relative_h_correction": 5.897106942699522e-10,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.4718006243804694e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 31628.249783273262,
+        "radius_km": 31.62824978327326,
+        "gravitational_mass_kg": 2.6331757560625437e+29,
+        "gravitational_mass_solar": 0.13242620622971166,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.6396587883576772e+29,
+        "binding_energy_j": 5.826658849169285e+43,
+        "compactness_GM_Rc2": 0.006182569479901978,
+        "schwarzschild_ratio_2GM_Rc2": 0.012365138959803956,
+        "surface_redshift": 0.0062405030010659335,
+        "central_rest_density_kg_m3": 1.4718006243804726e+16,
+        "central_energy_density_j_m3": 1.3305581846077398e+33,
+        "central_mass_energy_density_kg_m3": 1.4804456386864024e+16,
+        "central_pressure_pa": 4.661850826625071e+30,
+        "central_enthalpy": 0.00935414088992537,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -5.759824041329242e-19,
+          "function_evaluations": 3167,
+          "accepted_steps": 211,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.049257081999940056,
+          "max_sound_speed_squared_over_c2_evaluated": 0.005586316206057838,
+          "central_series_relative_h_correction": 6.218599126028554e-10,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.6741664857680482e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 30799.47751730868,
+        "radius_km": 30.799477517308677,
+        "gravitational_mass_kg": 2.76496591533137e+29,
+        "gravitational_mass_solar": 0.13905412340166576,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.7723037469371915e+29,
+        "binding_energy_j": 6.594914156430661e+43,
+        "compactness_GM_Rc2": 0.006666697516008824,
+        "schwarzschild_ratio_2GM_Rc2": 0.013333395032017649,
+        "surface_redshift": 0.006734114297812566,
+        "central_rest_density_kg_m3": 1.6741664857680524e+16,
+        "central_energy_density_j_m3": 1.5142141106704012e+33,
+        "central_mass_energy_density_kg_m3": 1.684790415114602e+16,
+        "central_pressure_pa": 5.728986911247265e+30,
+        "central_enthalpy": 0.010102085178463425,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 5.082197683525802e-21,
+          "function_evaluations": 3104,
+          "accepted_steps": 206,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.06572634200006178,
+          "max_sound_speed_squared_over_c2_evaluated": 0.006030738303677335,
+          "central_series_relative_h_correction": 6.558423464727836e-10,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.9043567285132412e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 29990.580294355426,
+        "radius_km": 29.990580294355425,
+        "gravitational_mass_kg": 2.902737955671662e+29,
+        "gravitational_mass_solar": 0.1459828779995257,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.911040018483891e+29,
+        "binding_energy_j": 7.461521946688991e+43,
+        "compactness_GM_Rc2": 0.007187655946133444,
+        "schwarzschild_ratio_2GM_Rc2": 0.014375311892266889,
+        "surface_redshift": 0.007266089701969403,
+        "central_rest_density_kg_m3": 1.904356728513246e+16,
+        "central_energy_density_j_m3": 1.723284470651378e+33,
+        "central_mass_energy_density_kg_m3": 1.917412562866586e+16,
+        "central_pressure_pa": 7.040399242676607e+30,
+        "central_enthalpy": 0.010909508522103307,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -2.913793338554793e-19,
+          "function_evaluations": 3002,
+          "accepted_steps": 200,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.06409446399993612,
+          "max_sound_speed_squared_over_c2_evaluated": 0.006510129389154702,
+          "central_series_relative_h_correction": 6.917733666280162e-10,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 2.1661970779267396e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 29200.998908072543,
+        "radius_km": 29.200998908072542,
+        "gravitational_mass_kg": 3.046680882918185e+29,
+        "gravitational_mass_solar": 0.15322197539929822,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.0560698892684635e+29,
+        "binding_energy_j": 8.438418080505557e+43,
+        "compactness_GM_Rc2": 0.007748070741222395,
+        "schwarzschild_ratio_2GM_Rc2": 0.01549614148244479,
+        "surface_redshift": 0.007839298473807377,
+        "central_rest_density_kg_m3": 2.1661970779267444e+16,
+        "central_energy_density_j_m3": 1.9613008497304254e+33,
+        "central_mass_energy_density_kg_m3": 2.1822415003905676e+16,
+        "central_pressure_pa": 8.652004667521454e+30,
+        "central_enthalpy": 0.011781087015450708,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -1.5517643593698782e-18,
+          "function_evaluations": 2927,
+          "accepted_steps": 195,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.050422546999925544,
+          "max_sound_speed_squared_over_c2_evaluated": 0.00702717703986122,
+          "central_series_relative_h_correction": 7.29777007371886e-10,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 2.4640392790702696e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 28430.186852632367,
+        "radius_km": 28.430186852632367,
+        "gravitational_mass_kg": 3.196977948843935e+29,
+        "gravitational_mass_solar": 0.16078063159692543,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.207591340241135e+29,
+        "binding_energy_j": 9.538840482194668e+43,
+        "compactness_GM_Rc2": 0.00835072620099755,
+        "schwarzschild_ratio_2GM_Rc2": 0.0167014524019951,
+        "surface_redshift": 0.008456805580124183,
+        "central_rest_density_kg_m3": 2.4640392790702748e+16,
+        "central_energy_density_j_m3": 2.2322889291079022e+33,
+        "central_mass_energy_density_kg_m3": 2.4837564020997796e+16,
+        "central_pressure_pa": 1.0632519859534978e+31,
+        "central_enthalpy": 0.0127218554852101,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -2.3784685158900754e-18,
+          "function_evaluations": 2852,
+          "accepted_steps": 190,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.06796133199986798,
+          "max_sound_speed_squared_over_c2_evaluated": 0.007584764853485044,
+          "central_series_relative_h_correction": 7.699867836563529e-10,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 2.8028334220689364e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 27677.610069275524,
+        "radius_km": 27.677610069275524,
+        "gravitational_mass_kg": 3.353804711160292e+29,
+        "gravitational_mass_solar": 0.16866767564289478,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.365796229540223e+29,
+        "binding_energy_j": 1.077743924488047e+44,
+        "compactness_GM_Rc2": 0.008998570047798018,
+        "schwarzschild_ratio_2GM_Rc2": 0.017997140095596036,
+        "surface_redshift": 0.009121882232171696,
+        "central_rest_density_kg_m3": 2.802833422068943e+16,
+        "central_energy_density_j_m3": 2.540838372063707e+33,
+        "central_mass_energy_density_kg_m3": 2.8270639570998684e+16,
+        "central_pressure_pa": 1.3066391305564496e+31,
+        "central_enthalpy": 0.013737233546292736,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 1.9786689647860456e-18,
+          "function_evaluations": 2777,
+          "accepted_steps": 185,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.05581840300010299,
+          "max_sound_speed_squared_over_c2_evaluated": 0.008185985001775238,
+          "central_series_relative_h_correction": 8.125466022460376e-10,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 3.18821021182375e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 26942.746742607254,
+        "radius_km": 26.942746742607255,
+        "gravitational_mass_kg": 3.5173266161016696e+29,
+        "gravitational_mass_solar": 0.1768914280669346,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.530867997578786e+29,
+        "binding_energy_j": 1.2170386729809265e+44,
+        "compactness_GM_Rc2": 0.00969471725341993,
+        "schwarzschild_ratio_2GM_Rc2": 0.01938943450683986,
+        "surface_redshift": 0.009838015857857929,
+        "central_rest_density_kg_m3": 3.188210211823757e+16,
+        "central_energy_density_j_m3": 2.892182765427273e+33,
+        "central_mass_energy_density_kg_m3": 3.217987316069965e+16,
+        "central_pressure_pa": 1.6057395989439363e+31,
+        "central_enthalpy": 0.014833053308296408,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -1.6263032587282567e-18,
+          "function_evaluations": 2714,
+          "accepted_steps": 180,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.04662187400003859,
+          "max_sound_speed_squared_over_c2_evaluated": 0.008834151293264422,
+          "central_series_relative_h_correction": 8.576117792633672e-10,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 3.626574549433625e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 26225.087116840117,
+        "radius_km": 26.22508711684012,
+        "gravitational_mass_kg": 3.687696327764518e+29,
+        "gravitational_mass_solar": 0.18545956656662116,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.702979118006303e+29,
+        "binding_energy_j": 1.3735486875353177e+44,
+        "compactness_GM_Rc2": 0.010442452996174967,
+        "schwarzschild_ratio_2GM_Rc2": 0.020884905992349934,
+        "surface_redshift": 0.01060891999073399,
+        "central_rest_density_kg_m3": 3.626574549433631e+16,
+        "central_energy_density_j_m3": 3.2922911012154215e+33,
+        "central_mass_energy_density_kg_m3": 3.663167878312168e+16,
+        "central_pressure_pa": 1.9733066302082605e+31,
+        "central_enthalpy": 0.016015588795870027,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -1.3010426069826053e-18,
+          "function_evaluations": 2627,
+          "accepted_steps": 175,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.044547850000071776,
+          "max_sound_speed_squared_over_c2_evaluated": 0.009532812711024791,
+          "central_series_relative_h_correction": 9.053501781628412e-10,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 4.125211980635509e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 25524.133338440104,
+        "radius_km": 25.524133338440105,
+        "gravitational_mass_kg": 3.865050957440511e+29,
+        "gravitational_mass_solar": 0.1943789866665491,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.8822884466618666e+29,
+        "binding_energy_j": 1.549228270611374e+44,
+        "compactness_GM_Rc2": 0.011245235039983502,
+        "schwarzschild_ratio_2GM_Rc2": 0.022490470079967004,
+        "surface_redshift": 0.0114385444621814,
+        "central_rest_density_kg_m3": 4.1252119806355176e+16,
+        "central_energy_density_j_m3": 3.7479725107333795e+33,
+        "central_mass_energy_density_kg_m3": 4.170181824154916e+16,
+        "central_pressure_pa": 2.425012785002565e+31,
+        "central_enthalpy": 0.01729158714128362,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 1.1993986533120893e-18,
+          "function_evaluations": 2567,
+          "accepted_steps": 171,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.04349111999999877,
+          "max_sound_speed_squared_over_c2_evaluated": 0.010285767378410042,
+          "central_series_relative_h_correction": 9.559434841787255e-10,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 4.692409780418384e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 24839.399349457704,
+        "radius_km": 24.839399349457704,
+        "gravitational_mass_kg": 4.049508592107859e+29,
+        "gravitational_mass_solar": 0.20365562713115276,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 4.068937857654275e+29,
+        "binding_energy_j": 1.7462153028893722e+44,
+        "compactness_GM_Rc2": 0.01210669364145578,
+        "schwarzschild_ratio_2GM_Rc2": 0.02421338728291156,
+        "surface_redshift": 0.012331084028971873,
+        "central_rest_density_kg_m3": 4.692409780418395e+16,
+        "central_energy_density_j_m3": 4.26699622761152e+33,
+        "central_mass_energy_density_kg_m3": 4.747673591832536e+16,
+        "central_pressure_pa": 2.980118202311646e+31,
+        "central_enthalpy": 0.018668301600496356,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -3.211948935988307e-18,
+          "function_evaluations": 2504,
+          "accepted_steps": 166,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.039497525999877325,
+          "max_sound_speed_squared_over_c2_evaluated": 0.011097076890353275,
+          "central_series_relative_h_correction": 1.0095886335860998e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 5.337594686218772e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 24170.41080942961,
+        "radius_km": 24.170410809429608,
+        "gravitational_mass_kg": 4.241164707337057e+29,
+        "gravitational_mass_solar": 0.21329428956456317,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 4.2630487524180876e+29,
+        "binding_energy_j": 1.9668398848286428e+44,
+        "compactness_GM_Rc2": 0.013030630340849387,
+        "schwarzschild_ratio_2GM_Rc2": 0.026061260681698773,
+        "surface_redshift": 0.01329098691415087,
+        "central_rest_density_kg_m3": 5.337594686218785e+16,
+        "central_energy_density_j_m3": 4.858229063332364e+33,
+        "central_mass_energy_density_kg_m3": 5.405508839638073e+16,
+        "central_pressure_pa": 3.6622918257067256e+31,
+        "central_enthalpy": 0.020153526434849217,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -9.486769009248164e-20,
+          "function_evaluations": 2432,
+          "accepted_steps": 162,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.041672230999893145,
+          "max_sound_speed_squared_over_c2_evaluated": 0.011971080929863051,
+          "central_series_relative_h_correction": 1.0664994187576826e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 6.071489568801134e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 23516.70505980488,
+        "radius_km": 23.51670505980488,
+        "gravitational_mass_kg": 4.440088345219765e+29,
+        "gravitational_mass_solar": 0.22329844619313965,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 4.464718315888351e+29,
+        "binding_energy_j": 2.2136313690527436e+44,
+        "compactness_GM_Rc2": 0.01402101509407689,
+        "schwarzschild_ratio_2GM_Rc2": 0.02804203018815378,
+        "surface_redshift": 0.014322962790353166,
+        "central_rest_density_kg_m3": 6.0714895688011464e+16,
+        "central_energy_density_j_m3": 5.531793036190925e+33,
+        "central_mass_energy_density_kg_m3": 6.154949831794849e+16,
+        "central_pressure_pa": 4.500620615059589e+31,
+        "central_enthalpy": 0.021755633688848263,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 1.8973538018496328e-19,
+          "function_evaluations": 2369,
+          "accepted_steps": 157,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.04553082000006725,
+          "max_sound_speed_squared_over_c2_evaluated": 0.01291241206859703,
+          "central_series_relative_h_correction": 1.1269082930430821e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 6.906291644668799e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 22877.831135627035,
+        "radius_km": 22.877831135627034,
+        "gravitational_mass_kg": 4.646317521935642e+29,
+        "gravitational_mass_solar": 0.2336700089053826,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 4.6740149696073676e+29,
+        "binding_energy_j": 2.489322453275524e+44,
+        "compactness_GM_Rc2": 0.015081979744738886,
+        "schwarzschild_ratio_2GM_Rc2": 0.03016395948947777,
+        "surface_redshift": 0.015431988198791657,
+        "central_rest_density_kg_m3": 6.9062916446688136e+16,
+        "central_energy_density_j_m3": 6.299246211098542e+33,
+        "central_mass_energy_density_kg_m3": 7.008856649874336e+16,
+        "central_pressure_pa": 5.530849775137961e+31,
+        "central_enthalpy": 0.02348361187997638,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -6.708500942254059e-19,
+          "function_evaluations": 2297,
+          "accepted_steps": 153,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.03853169200010598,
+          "max_sound_speed_squared_over_c2_evaluated": 0.01392601062651381,
+          "central_series_relative_h_correction": 1.1910684030080839e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 7.855875191866664e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 22253.349810104897,
+        "radius_km": 22.253349810104897,
+        "gravitational_mass_kg": 4.8598547062717776e+29,
+        "gravitational_mass_solar": 0.2444091018601551,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 4.8909738648244906e+29,
+        "binding_energy_j": 2.7968504907182923e+44,
+        "compactness_GM_Rc2": 0.016217810011244643,
+        "schwarzschild_ratio_2GM_Rc2": 0.03243562002248929,
+        "surface_redshift": 0.016623311727868018,
+        "central_rest_density_kg_m3": 7.855875191866685e+16,
+        "central_energy_density_j_m3": 7.173790293579436e+33,
+        "central_mass_energy_density_kg_m3": 7.981918172268064e+16,
+        "central_pressure_pa": 6.796906882749687e+31,
+        "central_enthalpy": 0.02534710659864554,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 3.8624702394796095e-19,
+          "function_evaluations": 2237,
+          "accepted_steps": 149,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.04453543200020249,
+          "max_sound_speed_squared_over_c2_evaluated": 0.015017139438315962,
+          "central_series_relative_h_correction": 1.2592558796242477e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 8.93602213828109e+16,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 21642.83373044867,
+        "radius_km": 21.64283373044867,
+        "gravitational_mass_kg": 5.08066140126688e+29,
+        "gravitational_mass_solar": 0.2555137889897551,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 5.115591423026107e+29,
+        "binding_energy_j": 3.1393537949495016e+44,
+        "compactness_GM_Rc2": 0.017432932447220117,
+        "schwarzschild_ratio_2GM_Rc2": 0.034865864894440234,
+        "surface_redshift": 0.0179024553004532,
+        "central_rest_density_kg_m3": 8.936022138281114e+16,
+        "central_energy_density_j_m3": 8.17050908907292e+33,
+        "central_mass_energy_density_kg_m3": 9.090917395943584e+16,
+        "central_pressure_pa": 8.352774899155109e+31,
+        "central_enthalpy": 0.027356462994832822,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -3.3745792618611326e-18,
+          "function_evaluations": 2177,
+          "accepted_steps": 145,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.033150688999967315,
+          "max_sound_speed_squared_over_c2_evaluated": 0.016191398343434176,
+          "central_series_relative_h_correction": 1.3317724246824313e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.0164684354777158e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 21016.733125780767,
+        "radius_km": 21.016733125780767,
+        "gravitational_mass_kg": 5.320247900015238e+29,
+        "gravitational_mass_solar": 0.2675629395335637,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 5.359638902676142e+29,
+        "binding_energy_j": 3.540286763712372e+44,
+        "compactness_GM_Rc2": 0.018798836784243277,
+        "schwarzschild_ratio_2GM_Rc2": 0.037597673568486555,
+        "surface_redshift": 0.019346105315589224,
+        "central_rest_density_kg_m3": 1.0164684354777182e+17,
+        "central_energy_density_j_m3": 9.306650819218514e+33,
+        "central_mass_energy_density_kg_m3": 1.0355045555674934e+17,
+        "central_pressure_pa": 1.0365889461712608e+32,
+        "central_enthalpy": 0.0296310796938355,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -5.590417451878382e-19,
+          "function_evaluations": 2168,
+          "accepted_steps": 142,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.037110151000206315,
+          "max_sound_speed_squared_over_c2_evaluated": 0.024234013023225403,
+          "central_series_relative_h_correction": 1.404242167827633e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.1562282012444397e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 20167.17334945587,
+        "radius_km": 20.16717334945587,
+        "gravitational_mass_kg": 5.704024892928824e+29,
+        "gravitational_mass_solar": 0.28686363797451725,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 5.751291203687448e+29,
+        "binding_energy_j": 4.2480841574097394e+44,
+        "compactness_GM_Rc2": 0.021003936595345805,
+        "schwarzschild_ratio_2GM_Rc2": 0.04200787319069161,
+        "surface_redshift": 0.021689735121808162,
+        "central_rest_density_kg_m3": 1.1562282012444424e+17,
+        "central_energy_density_j_m3": 1.0602700289487996e+34,
+        "central_mass_energy_density_kg_m3": 1.1797095071418536e+17,
+        "central_pressure_pa": 1.3762452322117768e+32,
+        "central_enthalpy": 0.03300169001783561,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -3.604972223514302e-18,
+          "function_evaluations": 2105,
+          "accepted_steps": 137,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.03663835999986986,
+          "max_sound_speed_squared_over_c2_evaluated": 0.02819039054836725,
+          "central_series_relative_h_correction": 1.444084080347729e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.3152042962599806e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 19333.842450718763,
+        "radius_km": 19.333842450718763,
+        "gravitational_mass_kg": 6.217064812156086e+29,
+        "gravitational_mass_solar": 0.31266515539743944,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 6.276251271791925e+29,
+        "binding_energy_j": 5.31941371088082e+44,
+        "compactness_GM_Rc2": 0.0238798468624393,
+        "schwarzschild_ratio_2GM_Rc2": 0.0477596937248786,
+        "surface_redshift": 0.024770747647696822,
+        "central_rest_density_kg_m3": 1.3152042962599837e+17,
+        "central_energy_density_j_m3": 1.2082333395915666e+34,
+        "central_mass_energy_density_kg_m3": 1.3443408930224072e+17,
+        "central_pressure_pa": 1.8271957714593667e+32,
+        "central_enthalpy": 0.036921499623007566,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 5.4752209710517974e-18,
+          "function_evaluations": 2006,
+          "accepted_steps": 132,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.03401638299988008,
+          "max_sound_speed_squared_over_c2_evaluated": 0.032774670488905165,
+          "central_series_relative_h_correction": 1.4800025869049898e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.4960388779991533e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 18572.38997530772,
+        "radius_km": 18.572389975307722,
+        "gravitational_mass_kg": 6.874544802347086e+29,
+        "gravitational_mass_solar": 0.34573077229463306,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 6.95130255064633e+29,
+        "binding_energy_j": 6.898642379212269e+44,
+        "compactness_GM_Rc2": 0.027487830886245592,
+        "schwarzschild_ratio_2GM_Rc2": 0.054975661772491184,
+        "surface_redshift": 0.028675753195260167,
+        "central_rest_density_kg_m3": 1.4960388779991568e+17,
+        "central_energy_density_j_m3": 1.377255580257854e+34,
+        "central_mass_energy_density_kg_m3": 1.53240349857406e+17,
+        "central_pressure_pa": 2.4259080497401053e+32,
+        "central_enthalpy": 0.04147729295458884,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -3.2526065174565133e-19,
+          "function_evaluations": 1967,
+          "accepted_steps": 127,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.03287023699999736,
+          "max_sound_speed_squared_over_c2_evaluated": 0.03808021320698996,
+          "central_series_relative_h_correction": 1.5124776397862124e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.7017373885178736e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 17904.850018357058,
+        "radius_km": 17.904850018357056,
+        "gravitational_mass_kg": 7.683967318083859e+29,
+        "gravitational_mass_solar": 0.38643779792675875,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 7.78587851814698e+29,
+        "binding_energy_j": 9.159321882801404e+44,
+        "compactness_GM_Rc2": 0.03186978542029512,
+        "schwarzschild_ratio_2GM_Rc2": 0.06373957084059025,
+        "surface_redshift": 0.033479022562833194,
+        "central_rest_density_kg_m3": 1.7017373885178774e+17,
+        "central_energy_density_j_m3": 1.5704664253095347e+34,
+        "central_mass_energy_density_kg_m3": 1.7473795561509795e+17,
+        "central_pressure_pa": 3.220798754965051e+32,
+        "central_enthalpy": 0.04676862724795999,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -1.7618285302889447e-18,
+          "function_evaluations": 1904,
+          "accepted_steps": 122,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.03866216799997346,
+          "max_sound_speed_squared_over_c2_evaluated": 0.044212082030323674,
+          "central_series_relative_h_correction": 1.5421480144472052e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.9357185044233152e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 17331.750300966218,
+        "radius_km": 17.331750300966217,
+        "gravitational_mass_kg": 8.649154362699892e+29,
+        "gravitational_mass_solar": 0.43497844635339294,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 8.78616077317619e+29,
+        "binding_energy_j": 1.2313522093571498e+45,
+        "compactness_GM_Rc2": 0.03705915754289143,
+        "schwarzschild_ratio_2GM_Rc2": 0.07411831508578286,
+        "surface_redshift": 0.03925531279939465,
+        "central_rest_density_kg_m3": 1.9357185044233197e+17,
+        "central_energy_density_j_m3": 1.7915025941285073e+34,
+        "central_mass_energy_density_kg_m3": 1.9933154617772864e+17,
+        "central_pressure_pa": 4.2761491397400476e+32,
+        "central_enthalpy": 0.05290938789059246,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -5.455950971501762e-19,
+          "function_evaluations": 1910,
+          "accepted_steps": 120,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.0326352820000011,
+          "max_sound_speed_squared_over_c2_evaluated": 0.05128775175648082,
+          "central_series_relative_h_correction": 1.569791087326703e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 2.2018709547366106e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 16842.198682716586,
+        "radius_km": 16.842198682716585,
+        "gravitational_mass_kg": 9.771651672709915e+29,
+        "gravitational_mass_solar": 0.4914304548930588,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 9.956542911003451e+29,
+        "binding_energy_j": 1.661719579193789e+45,
+        "compactness_GM_Rc2": 0.04308573529061391,
+        "schwarzschild_ratio_2GM_Rc2": 0.08617147058122782,
+        "surface_redshift": 0.04608661155778404,
+        "central_rest_density_kg_m3": 2.2018709547366157e+17,
+        "central_energy_density_j_m3": 2.0446027091042909e+34,
+        "central_mass_energy_density_kg_m3": 2.2749273188922694e+17,
+        "central_pressure_pa": 5.677303320212557e+32,
+        "central_enthalpy": 0.060029420506064045,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 8.538092108323347e-18,
+          "function_evaluations": 1748,
+          "accepted_steps": 114,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.030321428999968703,
+          "max_sound_speed_squared_over_c2_evaluated": 0.059437572505518926,
+          "central_series_relative_h_correction": 1.5963046645102704e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 2.5046181509522163e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 16420.791162270445,
+        "radius_km": 16.420791162270444,
+        "gravitational_mass_kg": 1.1050805785379343e+30,
+        "gravitational_mass_solar": 0.5557609599624371,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 1.12997274344572e+30,
+        "binding_energy_j": 2.2371962120843262e+45,
+        "compactness_GM_Rc2": 0.04997630994399902,
+        "schwarzschild_ratio_2GM_Rc2": 0.09995261988799804,
+        "surface_redshift": 0.05406480836090166,
+        "central_rest_density_kg_m3": 2.504618150952223e+17,
+        "central_energy_density_j_m3": 2.334723434246068e+34,
+        "central_mass_energy_density_kg_m3": 2.597730159983584e+17,
+        "central_pressure_pa": 7.537569887390776e+32,
+        "central_enthalpy": 0.06827620037186913,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 1.565316886525947e-18,
+          "function_evaluations": 1814,
+          "accepted_steps": 112,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.03126078199989024,
+          "max_sound_speed_squared_over_c2_evaluated": 0.06880486169377091,
+          "central_series_relative_h_correction": 1.6226932168744288e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 2.848991703435064e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 16051.467678509089,
+        "radius_km": 16.051467678509088,
+        "gravitational_mass_kg": 1.2483084918192743e+30,
+        "gravitational_mass_solar": 0.6277923431254359,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 1.2816010153062453e+30,
+        "binding_energy_j": 2.992182789713236e+45,
+        "compactness_GM_Rc2": 0.05775259378906076,
+        "schwarzschild_ratio_2GM_Rc2": 0.11550518757812152,
+        "surface_redshift": 0.06329153139864885,
+        "central_rest_density_kg_m3": 2.8489917034350704e+17,
+        "central_energy_density_j_m3": 2.667682519758355e+34,
+        "central_mass_energy_density_kg_m3": 2.9681971051423917e+17,
+        "central_pressure_pa": 1.0007384950707886e+33,
+        "central_enthalpy": 0.0778164813919752,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -9.486769009248164e-18,
+          "function_evaluations": 1712,
+          "accepted_steps": 110,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.028324130999862973,
+          "max_sound_speed_squared_over_c2_evaluated": 0.07954546554760704,
+          "central_series_relative_h_correction": 1.6500602560220164e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 3.240715045986564e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 15719.345892484806,
+        "radius_km": 15.719345892484805,
+        "gravitational_mass_kg": 1.406100670952538e+30,
+        "gravitational_mass_solar": 0.7071483056251942,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 1.450208944446994e+30,
+        "binding_energy_j": 3.9642539228282134e+45,
+        "compactness_GM_Rc2": 0.06642724836280224,
+        "schwarzschild_ratio_2GM_Rc2": 0.13285449672560448,
+        "surface_redshift": 0.07387569183580145,
+        "central_rest_density_kg_m3": 3.2407150459865715e+17,
+        "central_energy_density_j_m3": 3.050336035867292e+34,
+        "central_mass_energy_density_kg_m3": 3.3939565612901146e+17,
+        "central_pressure_pa": 1.3286477611197845e+33,
+        "central_enthalpy": 0.08883784436091761,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -2.2280354644577116e-17,
+          "function_evaluations": 1670,
+          "accepted_steps": 108,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.030012883999916085,
+          "max_sound_speed_squared_over_c2_evaluated": 0.09182659992619283,
+          "central_series_relative_h_correction": 1.6796080527618865e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 3.6862985584061286e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 15411.386687738395,
+        "radius_km": 15.411386687738394,
+        "gravitational_mass_kg": 1.577195865474473e+30,
+        "gravitational_mass_solar": 0.793194546414509,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 1.6349658661523883e+30,
+        "binding_energy_j": 5.192108728490587e+45,
+        "compactness_GM_Rc2": 0.07599906166862623,
+        "schwarzschild_ratio_2GM_Rc2": 0.15199812333725246,
+        "surface_redshift": 0.08592940530264159,
+        "central_rest_density_kg_m3": 3.686298558406138e+17,
+        "central_energy_density_j_m3": 3.490799254909633e+34,
+        "central_mass_energy_density_kg_m3": 3.884037986647133e+17,
+        "central_pressure_pa": 1.764002166224e+33,
+        "central_enthalpy": 0.10155003789273565,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -6.505213034913027e-19,
+          "function_evaluations": 1652,
+          "accepted_steps": 106,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.030393918000072517,
+          "max_sound_speed_squared_over_c2_evaluated": 0.10582475253443276,
+          "central_series_relative_h_correction": 1.7126455373880393e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 4.193147767970539e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 15116.530901283575,
+        "radius_km": 15.116530901283575,
+        "gravitational_mass_kg": 1.7597117084913774e+30,
+        "gravitational_mass_solar": 0.8849843960358199,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 1.834396127155171e+30,
+        "binding_energy_j": 6.712300804503314e+45,
+        "compactness_GM_Rc2": 0.08644775219949419,
+        "schwarzschild_ratio_2GM_Rc2": 0.17289550439898838,
+        "surface_redshift": 0.09956221965940282,
+        "central_rest_density_kg_m3": 4.19314776797055e+17,
+        "central_energy_density_j_m3": 3.99872350035737e+34,
+        "central_mass_energy_density_kg_m3": 4.4491799268155494e+17,
+        "central_pressure_pa": 2.3420079674242764e+33,
+        "central_enthalpy": 0.11618597605053338,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 4.6485168145316e-18,
+          "function_evaluations": 1646,
+          "accepted_steps": 104,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.029110104999972464,
+          "max_sound_speed_squared_over_c2_evaluated": 0.12172241142757038,
+          "central_series_relative_h_correction": 1.7506050644932558e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 4.769686428122207e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 14825.624556927154,
+        "radius_km": 14.825624556927155,
+        "gravitational_mass_kg": 1.9510667143714578e+30,
+        "gravitational_mass_solar": 0.9812195881357784,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.0462496684514325e+30,
+        "binding_energy_j": 8.554617290684595e+45,
+        "compactness_GM_Rc2": 0.09772899658311782,
+        "schwarzschild_ratio_2GM_Rc2": 0.19545799316623563,
+        "surface_redshift": 0.11487361592290823,
+        "central_rest_density_kg_m3": 4.769686428122219e+17,
+        "central_energy_density_j_m3": 4.585645045162756e+34,
+        "central_mass_energy_density_kg_m3": 5.102218216542338e+17,
+        "central_pressure_pa": 3.1094073604341515e+33,
+        "central_enthalpy": 0.13300222631558753,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 1.0313473165768361e-17,
+          "function_evaluations": 1616,
+          "accepted_steps": 102,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.0308846860000358,
+          "max_sound_speed_squared_over_c2_evaluated": 0.13970338718890105,
+          "central_series_relative_h_correction": 1.7950687787082857e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 5.4254965199149645e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 14531.28852795046,
+        "radius_km": 14.53128852795046,
+        "gravitational_mass_kg": 2.147953695581651e+30,
+        "gravitational_mass_solar": 1.080236890409114,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.2674100315690023e+30,
+        "binding_energy_j": 1.0736200060155713e+46,
+        "compactness_GM_Rc2": 0.10977036457127488,
+        "schwarzschild_ratio_2GM_Rc2": 0.21954072914254977,
+        "surface_redshift": 0.13194383394466613,
+        "central_rest_density_kg_m3": 5.4254965199149786e+17,
+        "central_energy_density_j_m3": 5.26542710127056e+34,
+        "central_mass_energy_density_kg_m3": 5.85857775937493e+17,
+        "central_pressure_pa": 4.128258429349197e+33,
+        "central_enthalpy": 0.15227879333679784,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 6.288372600415926e-18,
+          "function_evaluations": 1610,
+          "accepted_steps": 100,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.02800592200014762,
+          "max_sound_speed_squared_over_c2_evaluated": 0.15994652992407407,
+          "central_series_relative_h_correction": 1.8478055696667316e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 6.171477503018611e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 14227.808735533848,
+        "radius_km": 14.227808735533849,
+        "gravitational_mass_kg": 2.346377679390452e+30,
+        "gravitational_mass_solar": 1.1800271734553063,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.4938566818754195e+30,
+        "binding_energy_j": 1.325475172383045e+46,
+        "compactness_GM_Rc2": 0.12246844909798707,
+        "schwarzschild_ratio_2GM_Rc2": 0.24493689819597414,
+        "surface_redshift": 0.15082258426117878,
+        "central_rest_density_kg_m3": 6.171477503018627e+17,
+        "central_energy_density_j_m3": 6.054822484005569e+34,
+        "central_mass_energy_density_kg_m3": 6.736898576223506e+17,
+        "central_pressure_pa": 5.480953662215919e+33,
+        "central_enthalpy": 0.1743179827701693,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -1.3010426069826053e-17,
+          "function_evaluations": 1580,
+          "accepted_steps": 98,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.026616218999834018,
+          "max_sound_speed_squared_over_c2_evaluated": 0.18261772038342394,
+          "central_series_relative_h_correction": 1.9108200399434304e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 7.020027463009372e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 13911.040982621122,
+        "radius_km": 13.911040982621122,
+        "gravitational_mass_kg": 2.5417784889149893e+30,
+        "gravitational_mass_solar": 1.2782970585549713,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.720711421529792e+30,
+        "binding_energy_j": 1.6081689983412e+46,
+        "compactness_GM_Rc2": 0.1356882957275597,
+        "schwarzschild_ratio_2GM_Rc2": 0.2713765914551194,
+        "surface_redshift": 0.17151658204202413,
+        "central_rest_density_kg_m3": 7.020027463009389e+17,
+        "central_energy_density_j_m3": 6.974193171943972e+34,
+        "central_mass_energy_density_kg_m3": 7.759836423692224e+17,
+        "central_pressure_pa": 7.276882869974278e+33,
+        "central_enthalpy": 0.19944212199804978,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 1.3010426069826053e-18,
+          "function_evaluations": 1550,
+          "accepted_steps": 96,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.027213949000042703,
+          "max_sound_speed_squared_over_c2_evaluated": 0.20786014948799045,
+          "central_series_relative_h_correction": 1.9864155206886917e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 7.985249165584909e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 13578.344961013765,
+        "radius_km": 13.578344961013766,
+        "gravitational_mass_kg": 2.7292312976942804e+30,
+        "gravitational_mass_solar": 1.3725697794570677,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.942374040501183e+30,
+        "binding_energy_j": 1.915631439078733e+46,
+        "compactness_GM_Rc2": 0.1492649441913961,
+        "schwarzschild_ratio_2GM_Rc2": 0.2985298883827922,
+        "surface_redshift": 0.19397549745909082,
+        "central_rest_density_kg_m3": 7.985249165584929e+17,
+        "central_energy_density_j_m3": 8.048434394616708e+34,
+        "central_mass_energy_density_kg_m3": 8.955090980314152e+17,
+        "central_pressure_pa": 9.66127932596233e+33,
+        "central_enthalpy": 0.22798992850503566,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 1.4121733296623695e-17,
+          "function_evaluations": 1511,
+          "accepted_steps": 95,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.027532829999927344,
+          "max_sound_speed_squared_over_c2_evaluated": 0.23578310011739131,
+          "central_series_relative_h_correction": 2.077273960777669e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 9.083184442292812e+17,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 13296.33198223391,
+        "radius_km": 13.29633198223391,
+        "gravitational_mass_kg": 2.8661066511349584e+30,
+        "gravitational_mass_solar": 1.4414063686622032,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.1070559856546365e+30,
+        "binding_energy_j": 2.1655446221275053e+46,
+        "compactness_GM_Rc2": 0.16007548072772498,
+        "schwarzschild_ratio_2GM_Rc2": 0.32015096145544997,
+        "surface_redshift": 0.21281275616803863,
+        "central_rest_density_kg_m3": 9.083184442292832e+17,
+        "central_energy_density_j_m3": 9.304298276370706e+34,
+        "central_mass_energy_density_kg_m3": 1.0352427998743452e+18,
+        "central_pressure_pa": 1.2191710295581206e+34,
+        "central_enthalpy": 0.2539277020517065,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -5.659535340374333e-17,
+          "function_evaluations": 1547,
+          "accepted_steps": 95,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.03055336800002806,
+          "max_sound_speed_squared_over_c2_evaluated": 0.23619734894010933,
+          "central_series_relative_h_correction": 2.208397000436589e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.0332080803225236e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 13002.452929723147,
+        "radius_km": 13.002452929723148,
+        "gravitational_mass_kg": 2.976311198371791e+30,
+        "gravitational_mass_solar": 1.4968298247920726,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.241676841122529e+30,
+        "binding_energy_j": 2.384987456810495e+46,
+        "compactness_GM_Rc2": 0.16998764840252473,
+        "schwarzschild_ratio_2GM_Rc2": 0.33997529680504945,
+        "surface_redshift": 0.23089187443164816,
+        "central_rest_density_kg_m3": 1.0332080803225263e+18,
+        "central_energy_density_j_m3": 1.0771788061677963e+35,
+        "central_mass_energy_density_kg_m3": 1.1985230590623683e+18,
+        "central_pressure_pa": 1.5373545018327023e+34,
+        "central_enthalpy": 0.2818331960451109,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -1.6479873021779667e-17,
+          "function_evaluations": 1553,
+          "accepted_steps": 93,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.024880555999970966,
+          "max_sound_speed_squared_over_c2_evaluated": 0.23618390331814273,
+          "central_series_relative_h_correction": 2.361535450932215e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.1752694707741588e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 12691.935122448693,
+        "radius_km": 12.691935122448692,
+        "gravitational_mass_kg": 3.060995429366881e+30,
+        "gravitational_mass_solar": 1.5394187458405082,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.346618163304605e+30,
+        "binding_energy_j": 2.567049112914976e+46,
+        "compactness_GM_Rc2": 0.17910147209397737,
+        "schwarzschild_ratio_2GM_Rc2": 0.35820294418795473,
+        "surface_redshift": 0.24824874982294087,
+        "central_rest_density_kg_m3": 1.1752694707741617e+18,
+        "central_energy_density_j_m3": 1.2490165799517553e+35,
+        "central_mass_energy_density_kg_m3": 1.3897183676952195e+18,
+        "central_pressure_pa": 1.9385785972636603e+34,
+        "central_enthalpy": 0.3118844122927169,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 1.4094628242311558e-18,
+          "function_evaluations": 1556,
+          "accepted_steps": 90,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.023235487999954785,
+          "max_sound_speed_squared_over_c2_evaluated": 0.2418395793228563,
+          "central_series_relative_h_correction": 2.539329090510672e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.3368636533529526e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 12365.809461091852,
+        "radius_km": 12.365809461091853,
+        "gravitational_mass_kg": 3.121630388542325e+30,
+        "gravitational_mass_solar": 1.5699129412621784,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.4227806477967203e+30,
+        "binding_energy_j": 2.706603550828232e+46,
+        "compactness_GM_Rc2": 0.18746631701876165,
+        "schwarzschild_ratio_2GM_Rc2": 0.3749326340375233,
+        "surface_redshift": 0.26484290001660393,
+        "central_rest_density_kg_m3": 1.336863653352956e+18,
+        "central_energy_density_j_m3": 1.4506745590560295e+35,
+        "central_mass_energy_density_kg_m3": 1.6140931294492495e+18,
+        "central_pressure_pa": 2.44451554491083e+34,
+        "central_enthalpy": 0.34417543576773324,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -2.2768245622195593e-18,
+          "function_evaluations": 1478,
+          "accepted_steps": 88,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.022292468000159715,
+          "max_sound_speed_squared_over_c2_evaluated": 0.2595752578922914,
+          "central_series_relative_h_correction": 2.7453650986808997e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.5206762977336366e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 12026.90162025467,
+        "radius_km": 12.02690162025467,
+        "gravitational_mass_kg": 3.1599091030638045e+30,
+        "gravitational_mass_solar": 1.5891638588348422,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.4714734688451165e+30,
+        "binding_energy_j": 2.800200872558063e+46,
+        "compactness_GM_Rc2": 0.19511252503869678,
+        "schwarzschild_ratio_2GM_Rc2": 0.39022505007739355,
+        "surface_redshift": 0.28060505084737586,
+        "central_rest_density_kg_m3": 1.5206762977336402e+18,
+        "central_energy_density_j_m3": 1.687869233417744e+35,
+        "central_mass_energy_density_kg_m3": 1.878007797173431e+18,
+        "central_pressure_pa": 3.0824936671360816e+34,
+        "central_enthalpy": 0.3787940342115174,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -2.688821387764051e-17,
+          "function_evaluations": 1469,
+          "accepted_steps": 85,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.022121531000038885,
+          "max_sound_speed_squared_over_c2_evaluated": 0.2779638745152635,
+          "central_series_relative_h_correction": 2.9839683172414986e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.729762340900711e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 11678.747014068704,
+        "radius_km": 11.678747014068703,
+        "gravitational_mass_kg": 3.1776278361467726e+30,
+        "gravitational_mass_solar": 1.5980748652345178,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.4942727642754456e+30,
+        "binding_energy_j": 2.8458626897639223e+46,
+        "compactness_GM_Rc2": 0.20205569620107414,
+        "schwarzschild_ratio_2GM_Rc2": 0.4041113924021483,
+        "surface_redshift": 0.2954404649478899,
+        "central_rest_density_kg_m3": 1.7297623409007145e+18,
+        "central_energy_density_j_m3": 1.967524924301253e+35,
+        "central_mass_energy_density_kg_m3": 2.1891667173106803e+18,
+        "central_pressure_pa": 3.886973526396882e+34,
+        "central_enthalpy": 0.41582019032797635,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -2.883977778811442e-17,
+          "function_evaluations": 1394,
+          "accepted_steps": 84,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.021478572999967582,
+          "max_sound_speed_squared_over_c2_evaluated": 0.2969394023639374,
+          "central_series_relative_h_correction": 3.2603323525541894e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.9675967597164472e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 11325.103099690765,
+        "radius_km": 11.325103099690764,
+        "gravitational_mass_kg": 3.1766488769946103e+30,
+        "gravitational_mass_solar": 1.5975825325587507,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.4929773274360756e+30,
+        "binding_energy_j": 2.8430183301605965e+46,
+        "compactness_GM_Rc2": 0.20830100593010883,
+        "schwarzschild_ratio_2GM_Rc2": 0.41660201186021767,
+        "surface_redshift": 0.3092347877219066,
+        "central_rest_density_kg_m3": 1.967596759716452e+18,
+        "central_energy_density_j_m3": 2.29804994887013e+35,
+        "central_mass_energy_density_kg_m3": 2.556925404424365e+18,
+        "central_pressure_pa": 4.901409321936242e+34,
+        "central_enthalpy": 0.45532468447658114,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -2.200930410145574e-17,
+          "function_evaluations": 1388,
+          "accepted_steps": 82,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.02065875799985406,
+          "max_sound_speed_squared_over_c2_evaluated": 0.31642513571808434,
+          "central_series_relative_h_correction": 3.5806817077813825e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 2.238132324484947e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 10969.71173432578,
+        "radius_km": 10.969711734325779,
+        "gravitational_mass_kg": 3.1588798578438625e+30,
+        "gravitational_mass_solar": 1.588646236570384,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.4695828519650943e+30,
+        "binding_energy_j": 2.7924592501549215e+46,
+        "compactness_GM_Rc2": 0.21384653182667343,
+        "schwarzschild_ratio_2GM_Rc2": 0.42769306365334686,
+        "surface_redshift": 0.3218601045434599,
+        "central_rest_density_kg_m3": 2.2381323244849528e+18,
+        "central_energy_density_j_m3": 2.6896794886517153e+35,
+        "central_mass_energy_density_kg_m3": 2.992672033814599e+18,
+        "central_pressure_pa": 6.180596080218883e+34,
+        "central_enthalpy": 0.4973677770825209,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -2.905661822261152e-17,
+          "function_evaluations": 1286,
+          "accepted_steps": 76,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.020100527000067814,
+          "max_sound_speed_squared_over_c2_evaluated": 0.3363346569740587,
+          "central_series_relative_h_correction": 3.952470795816504e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 2.5458652933674885e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 10616.141564033247,
+        "radius_km": 10.616141564033247,
+        "gravitational_mass_kg": 3.126252238269921e+30,
+        "gravitational_mass_solar": 1.5722373361445945,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.426252159768831e+30,
+        "binding_energy_j": 2.696264830677841e+46,
+        "compactness_GM_Rc2": 0.2186863280133505,
+        "schwarzschild_ratio_2GM_Rc2": 0.437372656026701,
+        "surface_redshift": 0.33318243276397763,
+        "central_rest_density_kg_m3": 2.5458652933674947e+18,
+        "central_energy_density_j_m3": 3.154901832088887e+35,
+        "central_mass_energy_density_kg_m3": 3.5103017003173637e+18,
+        "central_pressure_pa": 7.79362942324662e+34,
+        "central_enthalpy": 0.5419980400215277,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -1.8851565274091708e-17,
+          "function_evaluations": 1349,
+          "accepted_steps": 77,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.022820101999968756,
+          "max_sound_speed_squared_over_c2_evaluated": 0.35657317862992693,
+          "central_series_relative_h_correction": 4.38462725085883e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 2.8959101394796554e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 10267.778547841588,
+        "radius_km": 10.267778547841589,
+        "gravitational_mass_kg": 3.0807077918931796e+30,
+        "gravitational_mass_solar": 1.5493323772385352,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.3652924534195025e+30,
+        "binding_energy_j": 2.557719383358471e+46,
+        "compactness_GM_Rc2": 0.2228118740419331,
+        "schwarzschild_ratio_2GM_Rc2": 0.4456237480838662,
+        "surface_redshift": 0.3430670392579005,
+        "central_rest_density_kg_m3": 2.895910139479662e+18,
+        "central_energy_density_j_m3": 3.708988910488974e+35,
+        "central_mass_energy_density_kg_m3": 4.126806719157806e+18,
+        "central_pressure_pa": 9.827637787445307e+34,
+        "central_enthalpy": 0.589251383324155,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -6.396792817664476e-17,
+          "function_evaluations": 1268,
+          "accepted_steps": 74,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.02156577499999912,
+          "max_sound_speed_squared_over_c2_evaluated": 0.3770392258312221,
+          "central_series_relative_h_correction": 4.887848799872037e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 3.2940845526230835e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 9927.73723278408,
+        "radius_km": 9.92773723278408,
+        "gravitational_mass_kg": 3.024169404230396e+30,
+        "gravitational_mass_solar": 1.5208984067096447,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.2891077925061486e+30,
+        "binding_energy_j": 2.381147485090183e+46,
+        "compactness_GM_Rc2": 0.22621435429029826,
+        "schwarzschild_ratio_2GM_Rc2": 0.45242870858059653,
+        "surface_redshift": 0.3513867758442948,
+        "central_rest_density_kg_m3": 3.2940845526230917e+18,
+        "central_energy_density_j_m3": 4.370657390785647e+35,
+        "central_mass_energy_density_kg_m3": 4.863012190848812e+18,
+        "central_pressure_pa": 1.2392488689947138e+35,
+        "central_enthalpy": 0.6391503176135678,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 1.81603863891322e-17,
+          "function_evaluations": 1238,
+          "accepted_steps": 72,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.02532430399992336,
+          "max_sound_speed_squared_over_c2_evaluated": 0.39762660210258477,
+          "central_series_relative_h_correction": 5.4749651659216095e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 3.7470061283668367e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 9598.877072045221,
+        "radius_km": 9.598877072045221,
+        "gravitational_mass_kg": 2.958522306569501e+30,
+        "gravitational_mass_solar": 1.48788353456065,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.200161180188687e+30,
+        "binding_energy_j": 2.171741890493744e+46,
+        "compactness_GM_Rc2": 0.22888573989901634,
+        "schwarzschild_ratio_2GM_Rc2": 0.4577714797980327,
+        "surface_redshift": 0.358028303825356,
+        "central_rest_density_kg_m3": 3.747006128366848e+18,
+        "central_energy_density_j_m3": 5.162893311477599e+35,
+        "central_mass_energy_density_kg_m3": 5.744493532414403e+18,
+        "central_pressure_pa": 1.5626723252525062e+35,
+        "central_enthalpy": 0.6917034839605019,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -2.5587171270657905e-17,
+          "function_evaluations": 1232,
+          "accepted_steps": 70,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.021562849000019924,
+          "max_sound_speed_squared_over_c2_evaluated": 0.4182265607658344,
+          "central_series_relative_h_correction": 6.161379156689515e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 4.2622023514358897e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 9283.802999589278,
+        "radius_km": 9.283802999589277,
+        "gravitational_mass_kg": 2.8855920550723043e+30,
+        "gravitational_mass_solar": 1.4512058593127426,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 3.1009286366306623e+30,
+        "binding_energy_j": 1.935348678470573e+46,
+        "compactness_GM_Rc2": 0.23081994602007877,
+        "schwarzschild_ratio_2GM_Rc2": 0.46163989204015754,
+        "surface_redshift": 0.36289865902925467,
+        "central_rest_density_kg_m3": 4.2622023514359004e+18,
+        "central_energy_density_j_m3": 6.113981707573488e+35,
+        "central_mass_energy_density_kg_m3": 6.80272208964244e+18,
+        "central_pressure_pa": 1.9705039538111717e+35,
+        "central_enthalpy": 0.746905471815008,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 1.964574336543734e-16,
+          "function_evaluations": 1157,
+          "accepted_steps": 69,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.021386603999872023,
+          "max_sound_speed_squared_over_c2_evaluated": 0.43873008938612146,
+          "central_series_relative_h_correction": 6.965604364549649e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 4.848235701312714e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 8984.882708805992,
+        "radius_km": 8.984882708805992,
+        "gravitational_mass_kg": 2.8071264178248e+30,
+        "gravitational_mass_solar": 1.4117443587419582,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.993855587395791e+30,
+        "binding_energy_j": 1.6782380817315356e+46,
+        "compactness_GM_Rc2": 0.23201383201154996,
+        "schwarzschild_ratio_2GM_Rc2": 0.4640276640230999,
+        "surface_redshift": 0.3659311614334264,
+        "central_rest_density_kg_m3": 4.848235701312725e+18,
+        "central_energy_density_j_m3": 7.258793317070534e+35,
+        "central_mass_energy_density_kg_m3": 8.076496791120162e+18,
+        "central_pressure_pa": 2.4847728914364958e+35,
+        "central_enthalpy": 0.8047369331108769,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -1.2332799712022613e-17,
+          "function_evaluations": 1139,
+          "accepted_steps": 67,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.020232477000035942,
+          "max_sound_speed_squared_over_c2_evaluated": 0.45903020607390227,
+          "central_series_relative_h_correction": 7.909920915366307e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 5.514845959287756e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 8704.263885251983,
+        "radius_km": 8.704263885251983,
+        "gravitational_mass_kg": 2.724780802908171e+30,
+        "gravitational_mass_solar": 1.3703315614459355,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.881316193210557e+30,
+        "binding_energy_j": 1.4068699268985844e+46,
+        "compactness_GM_Rc2": 0.2324683535261194,
+        "schwarzschild_ratio_2GM_Rc2": 0.4649367070522388,
+        "surface_redshift": 0.36709098988145983,
+        "central_rest_density_kg_m3": 5.514845959287771e+18,
+        "central_energy_density_j_m3": 8.640393863436296e+35,
+        "central_mass_energy_density_kg_m3": 9.613734716477735e+18,
+        "central_pressure_pa": 3.1332575152037718e+35,
+        "central_enthalpy": 0.8651649874627908,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -9.161508357502512e-18,
+          "function_evaluations": 1220,
+          "accepted_steps": 66,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.021770702999901914,
+          "max_sound_speed_squared_over_c2_evaluated": 0.4790241655701402,
+          "central_series_relative_h_correction": 9.021175629486919e-09,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 6.273112082079247e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 8443.908626175367,
+        "radius_km": 8.443908626175368,
+        "gravitational_mass_kg": 2.6401073052706404e+30,
+        "gravitational_mass_solar": 1.3277480383578082,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.765576938927085e+30,
+        "binding_energy_j": 1.1276648302294079e+46,
+        "compactness_GM_Rc2": 0.23218939053691726,
+        "schwarzschild_ratio_2GM_Rc2": 0.4643787810738345,
+        "surface_redshift": 0.3663787941364469,
+        "central_rest_density_kg_m3": 6.273112082079261e+18,
+        "central_energy_density_j_m3": 1.0312058281602999e+36,
+        "central_mass_energy_density_kg_m3": 1.1473712225053757e+19,
+        "central_pressure_pa": 3.950985899119925e+35,
+        "central_enthalpy": 0.9281439005849987,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -1.5829351718288365e-17,
+          "function_evaluations": 1103,
+          "accepted_steps": 63,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.01786221700012902,
+          "max_sound_speed_squared_over_c2_evaluated": 0.49861547985862054,
+          "central_series_relative_h_correction": 1.0331759018438005e-08,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 7.135636332335735e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 8205.613987024453,
+        "radius_km": 8.205613987024453,
+        "gravitational_mass_kg": 2.554550573563425e+30,
+        "gravitational_mass_solar": 1.2847203241183998,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.6487700765445104e+30,
+        "binding_energy_j": 8.468026624225935e+45,
+        "compactness_GM_Rc2": 0.23118930533228935,
+        "schwarzschild_ratio_2GM_Rc2": 0.4623786106645787,
+        "surface_redshift": 0.3638346829971435,
+        "central_rest_density_kg_m3": 7.135636332335752e+18,
+        "central_energy_density_j_m3": 1.2339793501368827e+36,
+        "central_mass_energy_density_kg_m3": 1.3729871930988104e+19,
+        "central_pressure_pa": 4.982127865104408e+35,
+        "central_enthalpy": 0.9936160066070646,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -2.3852447794681098e-18,
+          "function_evaluations": 1151,
+          "accepted_steps": 63,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.021239292000018395,
+          "max_sound_speed_squared_over_c2_evaluated": 0.5177156718044723,
+          "central_series_relative_h_correction": 1.1880799003348468e-08,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 8.116753726241894e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 7991.048229782198,
+        "radius_km": 7.991048229782198,
+        "gravitational_mass_kg": 2.4694468378029226e+30,
+        "gravitational_mass_solar": 1.2419204280735132,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.5328729861047848e+30,
+        "binding_energy_j": 5.7004579253628065e+45,
+        "compactness_GM_Rc2": 0.2294881405576577,
+        "schwarzschild_ratio_2GM_Rc2": 0.4589762811153154,
+        "surface_redshift": 0.3595395540353006,
+        "central_rest_density_kg_m3": 8.116753726241914e+18,
+        "central_energy_density_j_m3": 1.480550015904646e+36,
+        "central_mass_energy_density_kg_m3": 1.64733405818649e+19,
+        "central_pressure_pa": 6.2823808279798615e+35,
+        "central_enthalpy": 1.0615128356490326,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -9.93129189996722e-17,
+          "function_evaluations": 1085,
+          "accepted_steps": 61,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.029261152000117363,
+          "max_sound_speed_squared_over_c2_evaluated": 0.5362456994764353,
+          "central_series_relative_h_correction": 1.3715620437835539e-08,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 9.232770279212978e+18,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 7801.767770488872,
+        "radius_km": 7.801767770488872,
+        "gravitational_mass_kg": 2.3860268629679536e+30,
+        "gravitational_mass_solar": 1.1999673196805825,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.419695375344319e+30,
+        "binding_energy_j": 3.0259749858622964e+45,
+        "compactness_GM_Rc2": 0.22711542322301342,
+        "schwarzschild_ratio_2GM_Rc2": 0.45423084644602685,
+        "surface_redshift": 0.35361608667701705,
+        "central_rest_density_kg_m3": 9.232770279213005e+18,
+        "central_energy_density_j_m3": 1.7810937309133086e+36,
+        "central_mass_energy_density_kg_m3": 1.981734039537441e+19,
+        "central_pressure_pa": 7.921978306540682e+35,
+        "central_enthalpy": 1.1317564014126598,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -2.4882439858542327e-17,
+          "function_evaluations": 1079,
+          "accepted_steps": 59,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.023258222000094975,
+          "max_sound_speed_squared_over_c2_evaluated": 0.5541370113182127,
+          "central_series_relative_h_correction": 1.5893530858975436e-08,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.0502234009283697e+19,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 7639.2302719271565,
+        "radius_km": 7.639230271927157,
+        "gravitational_mass_kg": 2.3054238316305438e+30,
+        "gravitational_mass_solar": 1.1594308927973698,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.3108762837595657e+30,
+        "binding_energy_j": 4.900419587773015e+44,
+        "compactness_GM_Rc2": 0.22411219785910536,
+        "schwarzschild_ratio_2GM_Rc2": 0.4482243957182107,
+        "surface_redshift": 0.3462284132963711,
+        "central_rest_density_kg_m3": 1.0502234009283725e+19,
+        "central_energy_density_j_m3": 2.1482696659593435e+36,
+        "central_mass_energy_density_kg_m3": 2.3902723642479518e+19,
+        "central_pressure_pa": 9.989483606246188e+35,
+        "central_enthalpy": 1.2042605999336151,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -1.476683358925257e-16,
+          "function_evaluations": 1043,
+          "accepted_steps": 59,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.018604715000037686,
+          "max_sound_speed_squared_over_c2_evaluated": 0.5713322159240446,
+          "central_series_relative_h_correction": 1.848400688221185e-08,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.1946243202225322e+19,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 7504.796392957895,
+        "radius_km": 7.5047963929578945,
+        "gravitational_mass_kg": 2.2286824453032563e+30,
+        "gravitational_mass_solar": 1.1208365428807971,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.2078862171678604e+30,
+        "binding_energy_j": -1.8690717734879415e+45,
+        "compactness_GM_Rc2": 0.22053300531008999,
+        "schwarzschild_ratio_2GM_Rc2": 0.44106601062017997,
+        "surface_redshift": 0.3375799181468673,
+        "central_rest_density_kg_m3": 1.1946243202225355e+19,
+        "central_energy_density_j_m3": 2.5978446334761182e+36,
+        "central_mass_energy_density_kg_m3": 2.8904919770557948e+19,
+        "central_pressure_pa": 1.2596573590345819e+36,
+        "central_enthalpy": 1.2789326700184904,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -2.5153490401663703e-17,
+          "function_evaluations": 1001,
+          "accepted_steps": 57,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.01679105400012304,
+          "max_sound_speed_squared_over_c2_evaluated": 0.5877853726749458,
+          "central_series_relative_h_correction": 2.1571372927391388e-08,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.3588797061707102e+19,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 7399.693547810152,
+        "radius_km": 7.399693547810152,
+        "gravitational_mass_kg": 2.1567702755523395e+30,
+        "gravitational_mass_solar": 1.0846708756254484,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.1120359975386894e+30,
+        "binding_energy_j": -4.020516403182053e+45,
+        "compactness_GM_Rc2": 0.21644844649901468,
+        "schwarzschild_ratio_2GM_Rc2": 0.43289689299802936,
+        "surface_redshift": 0.3279110556061826,
+        "central_rest_density_kg_m3": 1.3588797061707141e+19,
+        "central_energy_density_j_m3": 3.149477155018655e+36,
+        "central_mass_energy_density_kg_m3": 3.5042659330710974e+19,
+        "central_pressure_pa": 1.588407093613757e+36,
+        "central_enthalpy": 1.3556746679981695,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -3.924811864397526e-17,
+          "function_evaluations": 1037,
+          "accepted_steps": 57,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.01773792099993443,
+          "max_sound_speed_squared_over_c2_evaluated": 0.6034619290942048,
+          "central_series_relative_h_correction": 2.52580852909502e-08,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.5457194572253546e+19,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 7324.96493438621,
+        "radius_km": 7.32496493438621,
+        "gravitational_mass_kg": 2.0905858460349928e+30,
+        "gravitational_mass_solar": 1.0513857715366661,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 2.0244850135427882e+30,
+        "binding_energy_j": -5.940846552118382e+45,
+        "compactness_GM_Rc2": 0.2119467558967612,
+        "schwarzschild_ratio_2GM_Rc2": 0.4238935117935224,
+        "surface_redshift": 0.3174939112855517,
+        "central_rest_density_kg_m3": 1.5457194572253581e+19,
+        "central_energy_density_j_m3": 3.827702448373992e+36,
+        "central_mass_energy_density_kg_m3": 4.258893343739895e+19,
+        "central_pressure_pa": 2.002955071033087e+36,
+        "central_enthalpy": 1.4343849138039921,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": -1.791644090032296e-17,
+          "function_evaluations": 1022,
+          "accepted_steps": 56,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.016389108999874225,
+          "max_sound_speed_squared_over_c2_evaluated": 0.6183383462087106,
+          "central_series_relative_h_correction": 2.9668760926703456e-08,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 1.7582488204036168e+19,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 7281.355507971694,
+        "radius_km": 7.2813555079716945,
+        "gravitational_mass_kg": 2.030966156238433e+30,
+        "gravitational_mass_solar": 1.0214021697274327,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 1.9462526011248754e+30,
+        "binding_energy_j": -7.613674636751667e+45,
+        "compactness_GM_Rc2": 0.20713561040757153,
+        "schwarzschild_ratio_2GM_Rc2": 0.41427122081514306,
+        "surface_redshift": 0.3066272715433904,
+        "central_rest_density_kg_m3": 1.758248820403621e+19,
+        "central_energy_density_j_m3": 4.663170261022773e+36,
+        "central_mass_energy_density_kg_m3": 5.188476652314555e+19,
+        "central_pressure_pa": 2.5256932134758875e+36,
+        "central_enthalpy": 1.5149593714273586,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 1.2728533504979822e-16,
+          "function_evaluations": 1046,
+          "accepted_steps": 56,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.017807184000048437,
+          "max_sound_speed_squared_over_c2_evaluated": 0.6324014637896077,
+          "central_series_relative_h_correction": 3.495512285818155e-08,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    },
+    {
+      "requested_rest_density_kg_m3": 2e+19,
+      "model": {
+        "software_version": "1.0.0",
+        "eos": {
+          "type": "piecewise",
+          "name": "Continuous piecewise polytrope",
+          "K0_SI": 63095.73444801938,
+          "gammas": [
+            1.6,
+            2.2,
+            1.8
+          ],
+          "breaks_kg_m3": [
+            1e+17,
+            8e+17
+          ],
+          "energy_offsets": [
+            0.0,
+            0.009272083800446857,
+            -0.046943320289193145
+          ],
+          "status": "uncalibrated, continuous, no density jumps"
+        },
+        "radius_m": 7269.15689513035,
+        "radius_km": 7.26915689513035,
+        "gravitational_mass_kg": 1.978683984140803e+30,
+        "gravitational_mass_solar": 0.9951087113876408,
+        "total_mass_definition": "total mass is the gravitational mass m(R)",
+        "baryonic_mass_kg": 1.8782198833026269e+30,
+        "binding_energy_j": -9.029263090544861e+45,
+        "compactness_GM_Rc2": 0.20214207232219006,
+        "schwarzschild_ratio_2GM_Rc2": 0.4042841446443801,
+        "surface_redshift": 0.2956282843764382,
+        "central_rest_density_kg_m3": 2.000000000000005e+19,
+        "central_energy_density_j_m3": 5.694200958574622e+36,
+        "central_mass_energy_density_kg_m3": 6.335653015738621e+19,
+        "central_pressure_pa": 3.184857364428007e+36,
+        "central_enthalpy": 1.5972929339225497,
+        "configuration": {
+          "method": "DOP853",
+          "rtol": 1e-08,
+          "atol_mass": 1e-11,
+          "atol_enthalpy": 1e-11,
+          "atol_baryonic_mass": 1e-11,
+          "initial_radius_m": 0.5,
+          "max_radius_m": 100000.0,
+          "max_step_m": 150.0,
+          "length_scale_m": 10000.0,
+          "profile_points": 701,
+          "enforce_causality": true,
+          "horizon_margin": 1e-06
+        },
+        "diagnostics": {
+          "success": true,
+          "termination": "zero_enthalpy_surface",
+          "surface_enthalpy_residual": 2.1263915107871956e-17,
+          "function_evaluations": 1007,
+          "accepted_steps": 55,
+          "message": "A termination event occurred.",
+          "wall_seconds": 0.016611815000032948,
+          "max_sound_speed_squared_over_c2_evaluated": 0.6456476630093554,
+          "central_series_relative_h_correction": 4.130207439849109e-08,
+          "baryonic_mass_available": true,
+          "causality_enforced": true,
+          "scientific_status": "hydrostatic_model_no_dynamic_mode_calculation"
+        },
+        "interpretation": "Computed equilibrium, not an observation; radial modes not solved."
+      },
+      "error_type": null,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Exact core environment used for the delivered validation results.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8

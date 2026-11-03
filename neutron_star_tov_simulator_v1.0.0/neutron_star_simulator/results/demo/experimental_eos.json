@@ -1,0 +1,43 @@
+{
+  "status": "UNCALIBRATED experiment parameters; not published nuclear EOS fits",
+  "K_units": "Pa/(kg m^-3)^Gamma; identical units among Gamma=2 examples",
+  "specifications": {
+    "fermi": {
+      "type": "fermi"
+    },
+    "poly_K005": {
+      "type": "polytrope",
+      "K_SI": 0.005,
+      "gamma": 2.0
+    },
+    "poly_K010": {
+      "type": "polytrope",
+      "K_SI": 0.01,
+      "gamma": 2.0
+    },
+    "poly_K020": {
+      "type": "polytrope",
+      "K_SI": 0.02,
+      "gamma": 2.0
+    },
+    "piecewise": {
+      "type": "piecewise",
+      "K0_SI": 63095.73444801938,
+      "gammas": [
+        1.6,
+        2.2,
+        1.8
+      ],
+      "breaks_kg_m3": [
+        1e+17,
+        8e+17
+      ]
+    },
+    "css": {
+      "type": "css",
+      "s": 0.3333333333333333,
+      "epsilon_surface_j_m3": 4e+34,
+      "rho0_surface_kg_m3": 4.4506002242144736e+17
+    }
+  }
+}
